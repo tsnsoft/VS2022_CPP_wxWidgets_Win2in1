@@ -1,5 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////////////
-// C++ code generated with wxFormBuilder (version 3.10.1-0-g8feb16b3)
+// C++ code generated with wxFormBuilder (version 4.2.1-0-g80c4cb6)
 // http://www.wxformbuilder.org/
 //
 // PLEASE DO *NOT* EDIT THIS FILE!
@@ -9,7 +9,6 @@
 
 #include <wx/artprov.h>
 #include <wx/xrc/xmlres.h>
-#include <wx/intl.h>
 #include <wx/string.h>
 #include <wx/stattext.h>
 #include <wx/gdicmn.h>
@@ -26,7 +25,6 @@
 #include <wx/statbmp.h>
 
 ///////////////////////////////////////////////////////////////////////////
-
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class Frame1
@@ -47,7 +45,7 @@ class Frame1 : public wxFrame
 
 	public:
 
-		Frame1( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Авторизация"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 125,150 ), long style = wxCAPTION|wxCLOSE_BOX|wxTAB_TRAVERSAL );
+		Frame1( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("Авторизация"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 125,150 ), long style = wxCAPTION|wxCLOSE_BOX|wxTAB_TRAVERSAL );
 
 		~Frame1();
 
@@ -75,7 +73,7 @@ class Frame2 : public wxFrame
 
 	public:
 
-		Frame2( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("TSN Soft"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 125,180 ), long style = wxCAPTION|wxCLOSE_BOX|wxTAB_TRAVERSAL );
+		Frame2( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("TSN Soft"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 146,199 ), long style = wxCAPTION|wxCLOSE_BOX|wxTAB_TRAVERSAL );
 
 		~Frame2();
 
